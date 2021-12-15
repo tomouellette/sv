@@ -7,9 +7,9 @@ import seaborn as sns
 class Simulator:
     def __init__(self, params: dict):
         self.population_size = params['population_size']
-        self.generations = 100
-        self.mutation_rate = 1e-8
-        self.sv_length_distribution = 'uniform'
+        self.generations = params['generations']
+        self.mutation_rate = params['mutation_rate']
+        self.sv_length_distribution = params['sv_length_distribution']
         
     def run(self):
         sim = sv_evolution(self.population_size, self.generations, self.mutation_rate, self.sv_length_distribution)
