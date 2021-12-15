@@ -2,7 +2,7 @@
 
 Basic structural variation simulations in C++
 
-Currently minimal features and only neutral evolution.
+Currently extremely minimal features and only neutral evolution.
 
 ### Example
 
@@ -23,3 +23,4 @@ simulator.plot()
 mutation_ids, sv_lengths, frequency = simulator.data()
 ```
 
+A plot of the SV fraction and length distribution. Note that the SV length distribution should match the parameter `sv_length_distribution`.
