@@ -24,3 +24,5 @@ mutation_ids, sv_lengths, frequency = simulator.data()
 ```
 
 A plot of the SV fraction and length distribution. Note that the SV length distribution should match the parameter `sv_length_distribution`.
+
+<img src='example.png' style='height: 100vh'></img>
