@@ -150,8 +150,6 @@ auto sv_evolution(
         vector<double> freq;
         vector<string> unique_mutations = remove_duplicates(mut_ids);
         vector<int> unique_sv_lengths;
-        cout << unique_sv_lengths.size() << endl;
-        cout << unique_mutations.size() << endl;
         for (int i = 0; i < unique_mutations.size(); i++) {
 
             // Count occurrences of each unique mutation

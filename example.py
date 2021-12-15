@@ -1,12 +1,3 @@
-# SV
-
-Basic structural variation simulations in C++
-
-Currently minimal features and only neutral evolution.
-
-### Example
-
-```python
 from sv import Simulator
 
 params = {
@@ -21,5 +12,3 @@ simulator = Simulator(params)
 simulator.run()
 simulator.plot()
 mutation_ids, sv_lengths, frequency = simulator.data()
-```
-
