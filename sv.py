@@ -26,8 +26,7 @@ class Simulator:
         ax[1].set_ylabel('SV frequency')
         
         fig.suptitle(f'Params:\n $N$: {self.population_size}, $gen$: {self.generations}, $\mu$ (genome/div): {self.mutation_rate}, SV length distribution: {self.sv_length_distribution}', size=10)
-        fig.subplots_adjust(bottom=0.2)
-        #fig.tight_layout()
+        fig.subplots_adjust(bottom=0.15)
         
         if save == None:    
             plt.show()
