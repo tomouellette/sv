@@ -1,6 +1,6 @@
 # SV
 
-Basic structural variation simulations in C++
+Basic structural variation simulations in C++. Python wrapper provided.
 
 Currently extremely minimal features and only neutral evolution.
 
